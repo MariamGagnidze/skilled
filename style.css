@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: var(--FFFFFF, #FFF);
+}
+.header{
+    padding: 16px 16px 0 16px;
+}
+.header-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-heading > p{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.header-heading> button{
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    border: none;
+    background: var(--13183F, #13183F);
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+}
+.main{
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.main-heading > h1{
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.main-heading > p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.main-heading > button{
+    width: 167px;
+    height: 56px;
+    border-radius: 31.5px;
+    border: none;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+.main > img{
+    margin-top: 46px;
+}
+.main-container{
+    padding-left: 16px;
+    padding-right: 16px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.main-container > div{
+    padding-right: 29px;
+    padding-bottom: 32px;
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-container > div > img{
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: -24px;
+}
+.card1{
+    padding-top: 24px;
+    border-radius: 10px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+}
+.card1 > p{
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px; 
+}
+.card2{
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+.card2 > h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.card2 > p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.card2 > a{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    text-decoration: none;
+}
+.card3{
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+.card3 > h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.card3 > p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.card3 > a{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    text-decoration: none;
+}
+.card4{
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+.card4 > h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.card4 > p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.card4 > a{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    text-decoration: none;
+}
+.card5{
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+.card5 > h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.card5 > p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.card5 > a{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    text-decoration: none;
+}
+.card6{
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+.card6 > h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.card6 > p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.card6 > a{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    text-decoration: none;
+}
+.footer_container{
+    margin-top: 80px;
+    background: var(--13183F, #13183F);
+    padding: 43px 16px 42px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_container > h1{
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer_container > button{
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    border: none;
+    background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+}
